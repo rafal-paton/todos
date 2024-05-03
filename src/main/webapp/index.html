@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ULTIMATE TODO LIST</title>
+</head>
+<body>
+<main style="width: 40%; margin: 0 auto">
+    <div id="welcome" style="text-align: center">
+        <h1>What is your name?</h1>
+    </div>
+    <form id="welcomeForm">
+        <input name="name" placeholder="name">
+        <fieldset id="langs">Loading...</fieldset>
+        <button id="btn">Submit</button>
+    </form>
+    <form id="todoForm" style="display: none; text-align: center">
+        <fieldset>
+            <input id="todoText" placeholder="new TODO">
+            <button id="addTodo">+</button>
+        </fieldset>
+        <fieldset id="allTodos"></fieldset>
+    </form>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
